@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Publicar Anúncio</title>
+
+<link rel="stylesheet" href="../style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<h2>PERDIDOS <span>&</span> ACHADOS<span>.AO</span></h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="../index.html">Início</a></li>
+
+<li><a href="resultados.html">Anúncios</a></li>
+
+<li><a href="publicar.html">Publicar</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="publicar">
+
+<h1>Publicar Anúncio</h1>
+
+<p>Ajude alguém a reencontrar o que perdeu.</p>
+
+<form id="formulario">
+
+<label>Tipo</label>
+
+<select>
+
+<option>Perdi um objeto</option>
+
+<option>Encontrei um objeto</option>
+
+<option>Pessoa desaparecida</option>
+
+<option>Documento</option>
+
+</select>
+
+<label>Título</label>
+
+<input
+type="text"
+placeholder="Ex.: Carteira preta encontrada">
+
+<label>Descrição</label>
+
+<textarea
+rows="6"
+placeholder="Descreva todos os detalhes..."></textarea>
+
+<label>Província</label>
+
+<select>
+
+<option>Luanda</option>
+
+<option>Benguela</option>
+
+<option>Huambo</option>
+
+<option>Huíla</option>
+
+<option>Cabinda</option>
+
+</select>
+
+<label>Município</label>
+
+<input
+type="text"
+placeholder="Ex.: Viana">
+
+<label>Telefone</label>
+
+<input
+type="tel"
+placeholder="923000000">
+
+<label>WhatsApp</label>
+
+<input
+type="tel"
+placeholder="923000000">
+
+<label>Adicionar Fotografias</label>
+
+<input
+type="file"
+multiple
+accept="image/*">
+
+<button
+type="button"
+onclick="publicar()">
+
+Publicar Agora
+
+</button>
+
+</form>
+
+</section>
+
+<script src="../js/publicar.js"></script>
+
+</body>
+
+</html>

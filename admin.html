@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Painel Administrativo</title>
+
+<link rel="stylesheet" href="../style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<h2>PERDIDOS <span>&</span> ACHADOS<span>.AO</span></h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="../index.html">Site</a></li>
+
+<li><a href="publicar.html">Publicar</a></li>
+
+<li><a href="resultados.html">Anúncios</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="admin">
+
+<h1>Painel Administrativo</h1>
+
+<p>Bem-vindo ao centro de controlo.</p>
+
+<div class="dashboard">
+
+<div class="box">
+
+<h2>125</h2>
+
+<p>Anúncios Publicados</p>
+
+</div>
+
+<div class="box">
+
+<h2>48</h2>
+
+<p>Objetos Encontrados</p>
+
+</div>
+
+<div class="box">
+
+<h2>77</h2>
+
+<p>Objetos Perdidos</p>
+
+</div>
+
+<div class="box">
+
+<h2>35</h2>
+
+<p>Casos Resolvidos</p>
+
+</div>
+
+</div>
+
+<h2>Últimos Anúncios</h2>
+
+<table>
+
+<tr>
+
+<th>ID</th>
+
+<th>Título</th>
+
+<th>Local</th>
+
+<th>Estado</th>
+
+<th>Ação</th>
+
+</tr>
+
+<tr>
+
+<td>001</td>
+
+<td>Carteira Perdida</td>
+
+<td>Talatona</td>
+
+<td>Ativo</td>
+
+<td>
+
+<button onclick="editar()">
+
+Editar
+
+</button>
+
+<button onclick="eliminar()">
+
+Eliminar
+
+</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>002</td>
+
+<td>Bilhete Encontrado</td>
+
+<td>Viana</td>
+
+<td>Resolvido</td>
+
+<td>
+
+<button onclick="editar()">
+
+Editar
+
+</button>
+
+<button onclick="eliminar()">
+
+Eliminar
+
+</button>
+
+</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<script src="../js/admin.js"></script>
+
+</body>
+
+</html>

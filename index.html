@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Perdidos & Achados.ao</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+
+            <h2>PERDIDOS <span>&</span> ACHADOS<span>.AO</span></h2>
+
+        </div>
+
+        <nav>
+
+    <ul>
+
+        <li><a href="alguma-coisa.html">Início</a></li>
+
+        <li><a href="/paginas/resultados.html">Publicações</a></li>
+
+        <li><a href="/paginas/como-funciona.html">Como Funciona</a></li>
+
+        <li><a href="/paginas/seguranca.html">Segurança</a></li>
+
+        <li><a href="/paginas/contacto.html">Contacto</a></li>
+
+    </ul>
+
+</nav>
+
+<button
+class="btn-publicar"
+onclick="window.location.href='paginas/publicar.html'">
+
+Publicar Anúncio
+
+</button>
+
+        <div class="btn-mobile">
+            ☰
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="inicio">       
+
+        <div class="overlay">
+            
+
+
+            <h1>
+
+                Hoje por alguém. <br>
+
+                <span>Amanhã por você!</span>
+
+            </h1>
+
+            <p>
+
+                Encontre pessoas, documentos e objetos perdidos em Angola.
+
+                
+            </p>
+
+
+
+            <!-- PESQUISA -->
+
+            <div class="pesquisa">
+
+                <div class="campo">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+
+                        type="text"
+                        id="pesquisa"
+                        
+                        placeholder="Ex: carteira perdida, documento, telemóvel...">
+
+                </div>
+
+                <div class="campo">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <select>
+
+                        <option>Todo o País</option>
+
+                        <option>Luanda</option>
+
+                        <option>Benguela</option>
+
+                        <option>Huambo</option>
+
+                        <option>Huíla</option>
+
+                        <option>Cabinda</option>
+
+                        <option>Moxico leste</option>
+                        
+                        <option>Bié</option>
+
+                        <option>Cuanza Norte</option>
+
+                        <option>Icolo e Bengo</option>
+
+                        <option>Zaire</option>
+
+                        <option>Uige</option>
+
+                        <option>Malange</option>
+
+                        <option>Namibe</option>
+
+                        <option>Cuanza Sul</option>
+
+                        <option>Lunda Sul</option>
+
+                        <option>Huanbo</option>
+
+                        <option>Moxico</option>
+
+                        <option>Cuando</option>
+
+                        <option>Cubango</option>
+
+                        <option>Cunene</option>
+                        
+                        <option>Bengo</option>
+
+                    </select>
+
+                </div>
+
+                <button id="btnPesquisar">
+
+                    PESQUISAR
+
+                </button>
+
+            </div>
+
+
+
+            <!-- CARDS -->
+
+            <div class="vantagens">
+
+                <div>
+                    <p> </p>
+
+                    <i class="fa-solid fa-users"></i>
+                    
+                    <h3><span>Solidária</span></h3>
+
+                    <p><span>Todos juntos a ajudar quem precisa.</span></p>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <h3><span>Segurança</span></h3>
+
+                    <p><span>Ambiente seguro e respeitoso.</span></p>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-regular fa-heart"></i>
+
+                    <h3><span>Empatia</span></h3>
+
+                    <p><span>Pequenas ações geram grandes reencontros.</span></p>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-regular fa-bell"></i>
+
+                    <h3><span>Notificações</span></h3>
+
+                    <p><span>Receba alertas sobre novos anúncios.</span></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ANÚNCIOS ================= -->
+
+    <section class="anuncios" id="publicacoes">
+
+            <div class="titulo">
+
+            <h2>Anúncios Recentes</h2>
+
+            <a href="#">Ver Todos</a>
+
+        </div>
+
+
+
+        <div class="grid">
+
+            <div class="card">
+
+                <img src="imagens/carteira.jpg">
+
+                <span>Documento</span>
+
+                <h3>Carteira Perdida</h3>
+
+                <p>Luanda - Talatona</p>
+
+                <small>Há 2 horas</small>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <img src="imagens/bi.jpg">
+
+                <span>Documento</span>
+
+                <h3>Bilhete Encontrado</h3>
+
+                <p>Luanda - Viana</p>
+
+                <small>Há 5 horas</small>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <img src="imagens/iphone.jpg">
+
+                <span>Objeto</span>
+
+                <h3>iPhone 14 encontrado!</h3>
+
+                <p>Luanda - Cazenga</p>
+
+                <small>Há 1 dia</small>
+
+            </div>
+
+
+             <div class="card">
+
+                <img src="imagens/chave.jpg">
+
+                <span>Objeto</span>
+
+                <h3>Chaves encontradas!</h3>
+
+                <p>Benguela - Baia</p>
+
+                <small>Há 2 dia</small>
+
+            </div>    
+            
+
+             <div class="card">
+
+                <img src="imagens/pessoa.jpg">
+
+                <span>Pessoas</span>
+
+                <h3>Meninos Desaparecidos</h3>
+
+                <p>Huanbo - Lubango</p>
+
+                <small>Há 5 Semanas</small>
+
+            </div>
+
+
+        
+
+            <div class="card">
+
+                <img src="imagens/hospital.jpg">
+
+                <span>Hospital</span>
+
+                <h3>Entrada no hospital sem o conhecimento da familia</h3>
+
+                <p>Icolo e Bengo - zango 1</p>
+
+                <small>Há 5 horas</small>
+
+            </div>
+
+
+
+                <div class="card">
+
+                <img src="imagens/Animal.jpg">
+
+                <span>Animal</span>
+
+                <h3>cao desaparecido</h3>
+
+                <p>Cabinda - Cabinda </p>
+
+                <small>Há 2 dias</small>
+
+            </div>
+        
+
+                <div class="card">
+
+                <img src="imagens/pen-drive.jpg">
+
+                <span>Objeto</span>
+
+                <h3>pen-drive esquecido</h3>
+
+                <p>Luanda - Morro bento</p>
+
+                <small>Há 6 horas</small>
+
+            </div>
+        </div>
+
+       
+    </section>
+
+
+
+    <!-- ================= RODAPÉ ================= -->
+
+    
+
+
+
+    <script src="script.js"></script>
+<button id="topo">
+
+⬆
+
+</button>
+
+</body>
+
+</html>
+<footer>
+
+<h2>Perdidos & Achados.ao</h2>
+
+<p>
+
+Atencao.
+
+Os encontros sao marcados apenas em esquadra da Policia nacional.
+
+</p>
+
+<div>
+
+<a href="#">Facebook</a>
+
+|
+
+<a href="#">Instagram</a>
+
+|
+
+<a href="#">WhatsApp</a>
+
+</div>
+
+<br>
+
+<p>
+
+© 2026 Todos os direitos reservados.
+
+</p>
+
+<br>
+
+<p>
+
+VIDA LOGICA LUANDA 
+
+</p>
+
+</footer>
